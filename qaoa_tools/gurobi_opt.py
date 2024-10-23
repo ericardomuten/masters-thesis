@@ -1,7 +1,7 @@
 import gurobipy as gp
 from gurobipy import GRB
 
-def gurobi_opt(N, Q, binary_variables="0/1"):
+def gurobi_minimize(N, Q, binary_variables="0/1"):
     """Finding solution bitstring with Gurobi Python API.
 
         Given a QUBO matrix Q, find the solution bitstring that minimize:
