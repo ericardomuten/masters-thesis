@@ -1,1 +1,1 @@
-# masters-thesis
+# QST Master's Thesis
